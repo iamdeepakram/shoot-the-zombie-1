@@ -6,5 +6,15 @@
 
 ## Solution
 
-for this perticular problem, i would assume that the game is hosted on a server and is not distributed to the users as files to run on their systems. 
+For this perticular problem, i would assume that the game is hosted on a server and is not distributed to the users as individual files to run on their systems from the directory directly. hence i've written a small node js script to replace the icon of the splash screen for each platform independently. this script can be run once and be forgotten of. this perticular method of mine has a shortcomings of its own. the same is elaborated below.
+
+* when this game is packaged as an electron app it will not be possible to change the icon in the file directory as mentioned above
+
+* this method may not work when the game is packaged as an android app where all the files sit natively on the device. we may have to host the game from a main server and open the game in webview. some assets which do not change can be hosted locally on the device such as the image file and the `c2runtime.js` file which is responsible for the logic of the game
+  
+* this script has to be run once manually according to where its being deployed which may seem like a hinderance at time
+
+* in the case where the game is hosted in one domain and is servered to different clients under different branding we may have to make a small API Call to figure out who's customer is requesting the data and what logo must be served
+
+
 
