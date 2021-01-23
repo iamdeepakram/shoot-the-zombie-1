@@ -1,11 +1,72 @@
 {
-  "Platform_Number": "1",
+  "Platform_Details": {
+    "Current_Platform": "5",
+    "Icon_Set": "false"
+  },
   "Platform_logo": [
-    {"Plat_No":"1", "Link":"https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon1.png"},
-    {"Plat_No":"2", "Link":"https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon2.png"},
-    {"Plat_No":"3", "Link":"https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon3.png"},
-    {"Plat_No":"4", "Link":"https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon4.png"},
-    {"Plat_No":"5", "Link":"https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon5.png"}
+    {
+      "Plat_No": "1",
+      "Link": "https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon1.png"
+    },
+    {
+      "Plat_No": "2",
+      "Link": "https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon2.png"
+    },
+    {
+      "Plat_No": "3",
+      "Link": "https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon3.png"
+    },
+    {
+      "Plat_No": "4",
+      "Link": "https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon4.png"
+    },
+    {
+      "Plat_No": "5",
+      "Link": "https://raw.githubusercontent.com/manand881/shoot-the-zombie/master/logos/icon5.png"
+    }
   ],
-  "Icon_Set":"false"
+  "Game_Data": [
+    {
+      "User_ID": "a8171c670249b0ea07043934d2addc2c16d626d781e4db6c480ecd7506",
+      "Session_ID": "0a8e7a4e55",
+      "Score": "1350",
+      "id": 1
+    },
+    {
+      "User_ID": "a8171c670249b0ea07043934d2addc2c16d626d781e4db6c480ecd7506",
+      "Session_ID": "0a8e7a4e55",
+      "Score": "2790",
+      "id": 2
+    },
+    {
+      "User_ID": "a8171c670249b0ea07043934d2addc2c16d626d781e4db6c480ecd7506",
+      "Session_ID": "bd2919c9b8",
+      "Score": null,
+      "id": 3
+    },
+    {
+      "User_ID": "a8171c670249b0ea07043934d2addc2c16d626d781e4db6c480ecd7506",
+      "Session_ID": "08c5fe2a0d",
+      "Score": null,
+      "id": 4
+    },
+    {
+      "User_ID": "a8171c670249b0ea07043934d2addc2c16d626d781e4db6c480ecd7506",
+      "Session_ID": "eb03944f2d",
+      "Score": null,
+      "id": 5
+    },
+    {
+      "User_ID": "697c3f850f611591b00fe6baafbf71751e2ca48049251c5f0ae7e565fc",
+      "Session_ID": "ead21e164b",
+      "Score": null,
+      "id": 6
+    },
+    {
+      "User_ID": "697c3f850f611591b00fe6baafbf71751e2ca48049251c5f0ae7e565fc",
+      "Session_ID": "ead21e164b",
+      "Score": "2120",
+      "id": 7
+    }
+  ]
 }
